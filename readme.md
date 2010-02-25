@@ -1,9 +1,10 @@
 Sitemap Xml
 ===
 
-About
----
 Extension supports spanner fork of multisite extension
+---
+
+About
 ---
 An XML Sitemap is used to give search engines information about your site. The [Radiant SitemapXML Extension][rse] by [Aissac][ai] creates a XML sitemap for your site.
 
