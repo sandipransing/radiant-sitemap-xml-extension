@@ -32,6 +32,7 @@ class SitemapXmlExtension < Radiant::Extension
   ]
   
   def activate    
+    Page.send :include, Sitemap::PageExtensions
     admin.page.edit.add :extended_metadata, 'admin/pages/sitemap_xml_form'
   end
   
